@@ -4,7 +4,6 @@
 # Ввод: [-5, 9, 0, 3, -1, -2, 1, 4, -2, 10, 2, 0, -9, 8, 10, -9, 0, -5, -5, 7]
 # Вывод: [1, 9, 13, 14, 19]
 list = list(map(int, input('Введите числа: ').split(' ')))
-new_list = []
 maxi = int(input('Введите max: '))
 mini = int(input('Введите min: '))
 for i in range(len(list)):
